@@ -26,6 +26,7 @@
 -include device/oneplus/msm8998-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/oneplus/cheeseburger
+ALLOW_MISSING_DEPENDENCIES=true
 
 # Assertions
 TARGET_BOARD_INFO_FILE ?= $(DEVICE_PATH)/board-info.txt
